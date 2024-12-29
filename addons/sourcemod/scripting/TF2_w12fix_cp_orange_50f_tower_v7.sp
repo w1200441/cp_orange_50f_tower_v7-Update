@@ -168,7 +168,7 @@ public Action BuildEntity(Handle timer)
 		DispatchSpawn(prop);
 		ActivateEntity(prop);
 		SetEntityRenderMode(prop, RENDER_TRANSCOLOR);
-		SetEntityRenderColor(prop, 255, 255, 255, 255);
+		SetEntityRenderColor(prop, 255, 255, 255, 0);
 	}
 	prop = CreateEntityByName("func_nobuild"); //red spawn
 	if (IsValidEntity(prop))
